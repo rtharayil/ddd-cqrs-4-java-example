@@ -14,7 +14,7 @@ package org.fuin.cqrs4j.example.quarkus.query.views.personlist;
 
 import java.util.Set;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 import javax.transaction.Transactional;
 

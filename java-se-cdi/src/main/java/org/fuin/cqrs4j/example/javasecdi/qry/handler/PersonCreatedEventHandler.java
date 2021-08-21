@@ -1,6 +1,6 @@
 package org.fuin.cqrs4j.example.javasecdi.qry.handler;
 
-import javax.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
 import org.apache.deltaspike.jpa.api.transaction.Transactional;

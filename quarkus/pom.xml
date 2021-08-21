@@ -16,7 +16,7 @@
     <packaging>pom</packaging>
 
     <properties>
-        <quarkus.version>1.10.5.Final</quarkus.version>
+        <quarkus.version>2.1.3.Final</quarkus.version>
 		<eventstore.version>5.0.9</eventstore.version>
     </properties>
 
@@ -35,7 +35,7 @@
 	        <dependency>
 	            <groupId>jakarta.enterprise</groupId>
 	            <artifactId>jakarta.enterprise.cdi-api</artifactId>
-	            <version>2.0.2</version>
+	            <version>3.0.0</version>
 	        </dependency>
 	
 	        <dependency>

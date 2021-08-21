@@ -19,8 +19,8 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.Semaphore;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.event.ObservesAsync;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.event.ObservesAsync;
 import javax.inject.Inject;
 
 import org.fuin.cqrs4j.example.quarkus.query.app.QryCheckForViewUpdatesEvent;

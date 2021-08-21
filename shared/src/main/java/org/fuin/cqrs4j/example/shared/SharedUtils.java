@@ -23,9 +23,6 @@ import java.nio.charset.Charset;
 import java.util.Collection;
 import java.util.zip.Adler32;
 
-import javax.json.bind.adapter.JsonbAdapter;
-import javax.json.bind.config.PropertyVisibilityStrategy;
-
 import org.fuin.ddd4j.ddd.AggregateVersionConverter;
 import org.fuin.ddd4j.ddd.EntityIdConverter;
 import org.fuin.ddd4j.ddd.EntityIdPathConverter;
@@ -42,6 +39,9 @@ import org.fuin.esc.spi.SerializedDataType;
 import org.fuin.esc.spi.SerializedDataTypeRegistry;
 import org.fuin.esc.spi.SimpleSerializedDataTypeRegistry;
 import org.fuin.esc.spi.SimpleSerializerDeserializerRegistry;
+
+import jakarta.json.bind.adapter.JsonbAdapter;
+import jakarta.json.bind.config.PropertyVisibilityStrategy;
 
 /**
  * Utility code shared between command (write) and query (read) module.

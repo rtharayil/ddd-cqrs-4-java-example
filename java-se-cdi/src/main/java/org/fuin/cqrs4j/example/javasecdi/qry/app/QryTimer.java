@@ -1,7 +1,7 @@
 package org.fuin.cqrs4j.example.javasecdi.qry.app;
 
-import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.event.Event;
+import jakarta.enterprise.context.ApplicationScoped;
+import jakarta.enterprise.event.Event;
 import javax.inject.Inject;
 
 @ApplicationScoped

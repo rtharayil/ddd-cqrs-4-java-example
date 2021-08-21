@@ -15,7 +15,7 @@ package org.fuin.cqrs4j.example.quarkus.query.api;
 import java.util.List;
 
 import javax.inject.Inject;
-import javax.persistence.EntityManager;
+import jakarta.persistence.EntityManager;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
