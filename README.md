@@ -27,8 +27,17 @@ Here is an overview of how such an application looks like:
 ### Prerequisites
 Make sure you have the following tools installed/configured:
 * [git](https://git-scm.com/) (VCS)
-* [Docker CE](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
-* [Docker Compose](https://docs.docker.com/compose/)
+* [Docker CE](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)  sudo apt install docker
+* [Docker Compose](https://docs.docker.com/compose/) sudo apt install docker-compose
+
+others 
+sudo apt install default-jre
+sudo apt install default-jdk
+
+
+sudo chmod 776 /var/run/docker.sock
+
+
 * *OPTIONAL* [GraalVM](https://www.graalvm.org/)
 * Hostname should be set in /etc/hosts (See [Find and Change Your Hostname in Ubuntu](https://helpdeskgeek.com/linux-tips/find-and-change-your-hostname-in-ubuntu/) for more information)
 
@@ -136,3 +145,10 @@ PersonCreatedEventHandler ... Handle PersonCreatedEvent: Person 'Peter Parker' w
    ```   
    docker-compose rm
    ```
+
+
+### Others
+sudo kill -9 $(sudo lsof -t -i:8080)
+sudo kill -9 $(sudo lsof -t -i:8081)
+
+docker-compose rm -s
