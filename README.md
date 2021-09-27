@@ -27,15 +27,17 @@ Here is an overview of how such an application looks like:
 ### Prerequisites
 Make sure you have the following tools installed/configured:
 * [git](https://git-scm.com/) (VCS)
-* [Docker CE](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)  sudo apt install docker
-* [Docker Compose](https://docs.docker.com/compose/) sudo apt install docker-compose
+* [Docker CE](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)  
+** sudo apt install docker
+* [Docker Compose](https://docs.docker.com/compose/) 
+** sudo apt install docker-compose
 
 others 
-sudo apt install default-jre
-sudo apt install default-jdk
+* sudo apt install default-jre
+* sudo apt install default-jdk
 
 
-sudo chmod 776 /var/run/docker.sock
+* sudo chmod 776 /var/run/docker.sock
 
 
 * *OPTIONAL* [GraalVM](https://www.graalvm.org/)
